@@ -10,7 +10,8 @@ fi
 mkdir -p /home/pi/RetroPie/roms/moonlight
 
 chmod a+x ./Scripts/Refresh.sh
-/bin/cp ./Scripts/Refresh.sh /home/pi/RetroPie/roms/moonlight/Refresh.sh
+/bin/cp ./Scripts/Refresh.sh /home/pi/RetroPie/roms/moonlight/Refresh_1080.sh
+/bin/cp ./Scripts/Refresh.sh /home/pi/RetroPie/roms/moonlight/Refresh_720.sh
 /bin/cp ./GenerateGamesList.py /home/pi/RetroPie/roms/moonlight/GenerateGamesList1080.py
 /bin/cp ./GenerateGamesList.py /home/pi/RetroPie/roms/moonlight/GenerateGamesList720.py
 
