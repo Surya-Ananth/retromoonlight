@@ -11,8 +11,8 @@ mkdir -p /home/pi/RetroPie/roms/moonlight
 
 chmod a+x ./Scripts/Refresh.sh
 /bin/cp ./Scripts/Refresh.sh /home/pi/RetroPie/roms/moonlight/Refresh.sh
-/bin/cp ./GenerateGamesList.py /home/pi/RetroPie/roms/moonlight/GenerateGamesList720.py
 /bin/cp ./GenerateGamesList.py /home/pi/RetroPie/roms/moonlight/GenerateGamesList1080.py
+/bin/cp ./GenerateGamesList.py /home/pi/RetroPie/roms/moonlight/GenerateGamesList720.py
 
 chmod 777 /home/pi/RetroPie/roms/moonlight
 
