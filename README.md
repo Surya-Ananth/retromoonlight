@@ -7,6 +7,7 @@ There is already a [solution available](https://github.com/TechWizTime/moonlight
 
   1. Using this script RetroPie will have a list of games it can display with scraped meta-data from the web.
   2. I've found Steam BPM to be unreliable when used with RetroPie and I wanted something better.
+  3. Streaming games can be switched between 1080p and 720p by selecting 'Refresh_1080' or 'Refresh_720'.
   
 ## Minimum Requirements ##
   * Raspberry Pi running Raspian Stretch (or latest RetroPie release)
