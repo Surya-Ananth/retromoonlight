@@ -21,7 +21,7 @@ There is already a [solution available](https://github.com/TechWizTime/moonlight
   2. In GeForce Expereince, go to Shield Settings and enable game streaming.
 
 #### On your raspberry pi: ####
-  1. git clone https://github.com/joelghill/retromoonlight.git
+  1. git clone https://github.com/Surya-Ananth/retromoonlight.git
   2. cd retromoonlight
   3. sudo bash ./Install.sh. If a first time install, use option 1. Otherwise you can use the other options to install select components, or remove MoonLight from RetroPie
   5. Run emulationstation
