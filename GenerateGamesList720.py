@@ -5,7 +5,7 @@ import sys
 import os
 import stat
 
-RefreshListScript = 'Refresh.sh'
+RefreshListScript = 'Refresh_720.sh'
 
 BashHeader = '#!/bin/bash\n'
 StreamString = 'moonlight stream -720 -app '
