@@ -5,7 +5,8 @@ import sys
 import os
 import stat
 
-RefreshListScript = 'Refresh_1080.sh'
+RefreshListScript1 = 'Refresh_1080.sh'
+RefreshListScript2 = 'Refresh_720.sh'
 
 BashHeader = '#!/bin/bash\n'
 StreamString = 'moonlight stream -1080 -app '
@@ -21,7 +22,8 @@ def clear_directory(folder_path):
         try:
             file_path = os.path.join(folder_path, the_file)
             if os.path.isfile(file_path) \
-                and the_file != RefreshListScript \
+                and the_file != RefreshListScript1 \
+                and the_file != RefreshListScript2 \
                 and not the_file.endswith(('.txt', 'py')):
                     os.unlink(file_path)
         except Exception as e:
