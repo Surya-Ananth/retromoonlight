@@ -49,7 +49,7 @@ I am gradually adding support for custom themes. The current version of retro mo
 
 ## Credits ##
 
-A huge thank you to [TechWizTime](https://github.com/TechWizTime) for his work in creating the install and setup script for moonlight in RetroPie. I am building on his work and could not have developed this without following his example!
+A huge thank you to [TechWizTime](https://github.com/TechWizTime) and [joelghill](https://github.com/joelghill) for his work in creating the install and setup script for moonlight in RetroPie. I am building on their work and could not have developed this without following his example!
 
 
 
