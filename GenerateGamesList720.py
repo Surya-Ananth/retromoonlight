@@ -9,7 +9,7 @@ RefreshListScript1 = 'Refresh_1080.sh'
 RefreshListScript2 = 'Refresh_720.sh'
 
 BashHeader = '#!/bin/bash\n'
-StreamString = 'moonlight stream -720 -app '
+StreamString = 'moonlight stream -720 -localaudio -app '
 roms_directory = '/home/pi/RetroPie/roms/moonlight/'
 
 
