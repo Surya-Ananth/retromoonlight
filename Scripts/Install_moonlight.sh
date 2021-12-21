@@ -11,12 +11,12 @@ fi
 
 echo -e "\nFetching and installing the GPG key....\n"
 
-if [ -f /home/pi/itimmer.gpg ]
+if [ -f /home/pi/retromoonlight/itimmer.gpg ]
 then	
     echo -e "NOTE: GPG Key Exists - Skipping"
 else		
     wget http://archive.itimmer.nl/itimmer.gpg
-    chown pi:pi /home/pi/itimmer.gpg
+    chown pi:pi /home/pi/retromoonlight/itimmer.gpg
     apt-key add itimmer.gpg		
 fi
 
